@@ -45,8 +45,8 @@ The returned `difference` is not a (mathematical) set difference operation, but 
 
 Todo
 ----
-[ ] Allow for "reference" set in request
+- [ ] Allow for "reference" set in request
 	- allows mathematical difference
 	- could allow for some cool text diff stuff
-[ ] Figure out how to identify sets while comparing
+- [ ] Figure out how to identify sets while comparing
 
