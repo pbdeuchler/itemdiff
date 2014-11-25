@@ -3,6 +3,8 @@ itemdiff
 
 Agnostic diff sets of items (disjoint, intersection, difference)
 
+Live demo: https://gentle-tor-6161.herokuapp.com/v1/diff/
+
 Run
 ----
 ```bash
