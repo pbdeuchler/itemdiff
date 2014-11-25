@@ -41,7 +41,7 @@ $ curl -H "Content-Type: application/json" -d '{"sets": [[1, 2, 3], [1, 4, 5]]}'
 
 Note
 ----
-The returned `difference` is not a (mathematical) set difference operation, but an XOR on the sets (semetric difference)
+The returned `difference` is not a (mathematical) set difference operation, but an XOR on the sets (symmetric difference)
 
 Todo
 ----
