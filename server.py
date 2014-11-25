@@ -90,7 +90,7 @@ def parse_input(data):
         raise InvalidJson({'error': "Malformed content, POST data must be a dictionary containing a single key of \"sets\" with an accompanying value of a list of sets to diff"})
 
 
-@app.route("/diff/", methods=['POST', ])
+@app.route("/v1/diff/", methods=['POST', ])
 def diff_tannen():
     request_data = None
     try:

@@ -18,14 +18,14 @@ Use
 import requests, json
 sets = {"sets": [[1, 2, 3], [1, 4, 5]]}
 data_string = json.dumps(sets)
-r = requests.post("http://127.0.0.1:5000/diff/", data=data_string)
+r = requests.post("http://127.0.0.1:5000/v1/diff/", data=data_string)
 print(r.json())
 # {u'disjoint': False, u'intersection': [1], u'difference': [2, 3]}
 ```
 
 - curl
 ```bash
-$ curl -H "Content-Type: application/json" -d '{"sets": [[1, 2, 3], [1, 4, 5]]}' http://127.0.0.1:5000/diff/
+$ curl -H "Content-Type: application/json" -d '{"sets": [[1, 2, 3], [1, 4, 5]]}' http://127.0.0.1:5000/v1/diff/
 ```
 
 - JSON
